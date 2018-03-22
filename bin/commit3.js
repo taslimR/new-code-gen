@@ -12,12 +12,14 @@ program
 let n = program.cellCount;
 let nf = program.filledCellCount;
 
+var mySet = new Set();
 while(true)
 {
 	let a = Math.floor(Math.random() * n);
-	const mySet = new Set();
+	
 	
 	mySet.add(a);
+
 	if(mySet.size == nf)
 		break;
 }
