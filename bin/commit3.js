@@ -20,8 +20,10 @@ while(true)
 	
 	mySet.add(a);
 
-	if(mySet.size == nf)
+	if(mySet.size == nf){
+		console.log(JSON.stringify(mySet));
 		break;
+	}
 }
 
-		console.log(JSON.stringify(mySet));
+		
