@@ -11,16 +11,17 @@ program
 
 let n = program.cellCount;
 let nf = program.filledCellCount;
-let bol = true;
-while(bol)
+
+while(true)
 {
 	let a = Math.floor(Math.random() * n);
 	const mySet = new Set();
 	
 	mySet.add(a);
 	if(mySet.size == nf)
-		bol = false;
+		break;
 }
 
-		
-		console.log(`{ for (let item of mySet) console.log(item); }`);
+		console.log('{ ');
+		for (let item of mySet) console.log(item);
+		console.log(' }');
