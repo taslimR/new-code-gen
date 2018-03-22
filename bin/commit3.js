@@ -18,7 +18,7 @@ while(true)
 	const mySet = new Set();
 	
 	mySet.add(a);
-	if(nySet.size == nf)
+	if(mySet.size == nf)
 		break;
 }
 
