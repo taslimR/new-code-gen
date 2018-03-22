@@ -21,7 +21,7 @@ let n = program.cellCount;
 
 		let x = Math.sqrt(xx);
 
-		let w = Math.ceil(x * p);
+		let w = Math.round(x * p);
 
 		let h = Math.ceil(x * q);
 
