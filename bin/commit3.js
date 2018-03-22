@@ -11,15 +11,15 @@ program
 
 let n = program.cellCount;
 let nf = program.filledCellCount;
-
-while(true)
+let bol = true;
+while(bol)
 {
 	let a = Math.floor(Math.random() * n);
 	const mySet = new Set();
 	
 	mySet.add(a);
 	if(mySet.size == nf)
-		break;
+		bol = false;
 }
 
 		
