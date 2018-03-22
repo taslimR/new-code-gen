@@ -1,11 +1,12 @@
 {
   "name": "new-code-gen",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "",
   "main": "index.js",
   "bin": {
     "new-gen-wh": "bin/commit.js",
-    "new-gen-last-row-len": "bin/commit2.js"
+    "new-gen-last-row-len": "bin/commit2.js",
+    "new-gen-random-list": "bin/commit3.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
