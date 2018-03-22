@@ -21,7 +21,7 @@ while(true)
 	mySet.add(a);
 
 	if(mySet.size == nf){
-		console.log(JSON.stringify(mySet));
+		console.log(Array.from(mySet).sort());
 		break;
 	}
 }
