@@ -21,8 +21,8 @@ let n = program.cellCount;
 
 		let x = Math.sqrt(xx);
 
-		let w = Math.round(x * p);
+		let w = Math.ceil(x * p);
 
-		let h = Math.round(x * q);
+		let h = Math.ceil(x * q);
 
 		console.log(`{ width: ${w}, height: ${h} }`);
