@@ -1,0 +1,19 @@
+{
+  "name": "new-code-gen",
+  "version": "0.0.6",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "new-gen-wh": "bin/commit.js",
+    "new-gen-last-row-len": "bin/commit2.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch-release": "npm version patch && npm publish"
+  },
+  "dependencies": {
+    "commander": "*"
+  },
+  "author": "taslimR",
+  "license": "ISC"
+}
