@@ -23,6 +23,8 @@ let n = program.cellCount;
 
 		let w = Math.round(x * p);
 
-		let h = Math.ceil(x * q);
+		let h = Math.round(x * q);
 
+		if((w * h) < n)
+			h += 1;
 		console.log(`{ width: ${w}, height: ${h} }`);
