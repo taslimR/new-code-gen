@@ -24,6 +24,4 @@ while(true)
 		break;
 }
 
-		console.log('{ ');
-		for (let item of mySet) console.log(item);
-		console.log(' }');
+		console.log(JSON.stringify(mySet));
